@@ -1,6 +1,7 @@
 use raytracer_shared::*;
 use raytracer_plugin_line::InfiniteLine;
 use raytracer_plugin_circle::Circle;
+use raytracer_plugin_line::version as line_version;
 
 
 fn main() {

@@ -1,4 +1,4 @@
-pub use raytracer_shared::version as version_shared;
+use ::raytracer_shared::version;
 use raytracer_shared::{Intersectable, Intersection, Ray, Vec2};
 
 pub struct Circle {
