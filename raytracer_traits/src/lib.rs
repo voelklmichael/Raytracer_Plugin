@@ -1,7 +1,10 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+mod vec2;
+pub use vec2::Vec2;
+mod ray;
+pub use ray::Ray;
+mod intersection;
+pub use intersection::{Intersection,Intersectable};
+mod scene;
+pub use scene::Scene;
+
+
