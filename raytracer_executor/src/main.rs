@@ -1,8 +1,6 @@
-use raytracer_shared::*;
-use raytracer_plugin_line::InfiniteLine;
 use raytracer_plugin_circle::Circle;
-use raytracer_plugin_line::line_version;
-
+use raytracer_plugin_line::InfiniteLine;
+use raytracer_shared::*;
 
 fn main() {
     let y_axis = InfiniteLine::new(Vec2::new(0., 0.), Vec2::new(0., 1.));
