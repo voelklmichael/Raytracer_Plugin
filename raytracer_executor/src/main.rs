@@ -37,5 +37,8 @@ fn main() {
     println!("{:?}", points);
     println!("{:?}", final_direction);
 
+    let shared_version = raytracer_shared::version_info();
+    dbg!(shared_version.crate_name);
+
     println!("Hello, world!");
 }

@@ -24,7 +24,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "raytracer_plugin_circle"
-version = "0.1.6"
+version = "0.1.7"
 dependencies = [
  "pkg-version 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "raytracer_shared 0.1.4 (git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=873e84a)",
@@ -32,7 +32,7 @@ dependencies = [
 
 [[package]]
 name = "raytracer_shared"
-version = "0.1.6"
+version = "0.1.7"
 source = "git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=873e84a#873e84a4726da61bb2fc659dcfffefe41be931f2"
 dependencies = [
  "pkg-version 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",

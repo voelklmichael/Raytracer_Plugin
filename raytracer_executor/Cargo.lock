@@ -27,43 +27,35 @@ checksum = "7e0456befd48169b9f13ef0f0ad46d492cf9d2dbb918bcf38e01eed4ce3ec5e4"
 
 [[package]]
 name = "raytracer_executor"
-version = "0.1.6"
+version = "0.1.7"
 dependencies = [
  "raytracer_plugin_circle",
  "raytracer_plugin_line",
- "raytracer_shared 0.1.4 (git+https://github.com/voelklmichael/Raytracer_Plugin?rev=873e84a)",
+ "raytracer_shared",
 ]
 
 [[package]]
 name = "raytracer_plugin_circle"
-version = "0.1.4"
-source = "git+https://github.com/voelklmichael/Raytracer_Plugin?rev=873e84a#873e84a4726da61bb2fc659dcfffefe41be931f2"
+version = "0.1.7"
+source = "git+https://github.com/voelklmichael/Raytracer_Plugin/#7ee5ea3d27b22d7aa29f3a5063d8c67d5e56860d"
 dependencies = [
  "pkg-version",
- "raytracer_shared 0.1.4 (git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=0d8f3c1)",
+ "raytracer_shared",
 ]
 
 [[package]]
 name = "raytracer_plugin_line"
-version = "0.1.4"
-source = "git+https://github.com/voelklmichael/Raytracer_Plugin?rev=873e84a#873e84a4726da61bb2fc659dcfffefe41be931f2"
+version = "0.1.7"
+source = "git+https://github.com/voelklmichael/Raytracer_Plugin/#7ee5ea3d27b22d7aa29f3a5063d8c67d5e56860d"
 dependencies = [
  "pkg-version",
- "raytracer_shared 0.1.4 (git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=0d8f3c1)",
+ "raytracer_shared",
 ]
 
 [[package]]
 name = "raytracer_shared"
-version = "0.1.4"
-source = "git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=0d8f3c1#0d8f3c110794188f7c432c89756889d456497425"
-dependencies = [
- "pkg-version",
-]
-
-[[package]]
-name = "raytracer_shared"
-version = "0.1.4"
-source = "git+https://github.com/voelklmichael/Raytracer_Plugin?rev=873e84a#873e84a4726da61bb2fc659dcfffefe41be931f2"
+version = "0.1.7"
+source = "git+https://github.com/voelklmichael/Raytracer_Plugin/#7ee5ea3d27b22d7aa29f3a5063d8c67d5e56860d"
 dependencies = [
  "pkg-version",
 ]

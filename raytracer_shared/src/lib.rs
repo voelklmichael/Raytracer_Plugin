@@ -1,4 +1,3 @@
-
 mod vec2;
 pub use vec2::Vec2;
 mod ray;
@@ -8,6 +7,7 @@ pub use intersection::{Intersectable, Intersection};
 mod scene;
 pub use scene::Scene;
 
+#[derive(Debug)]
 pub struct VersionInfo {
     pub crate_name: &'static str,
     pub major: u32,

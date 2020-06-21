@@ -24,7 +24,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "raytracer_shared"
-version = "0.1.6"
+version = "0.1.7"
 dependencies = [
  "pkg-version 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
