@@ -4,10 +4,19 @@
 name = "raytracer_executor"
 version = "0.1.0"
 dependencies = [
+ "raytracer_plugin_line",
+ "raytracer_shared",
+]
+
+[[package]]
+name = "raytracer_plugin_line"
+version = "0.1.0"
+source = "git+https://github.com/voelklmichael/Raytracer_Plugin#a6409cce9f868a4ed4f7170b3375fa0ec01713d4"
+dependencies = [
  "raytracer_shared",
 ]
 
 [[package]]
 name = "raytracer_shared"
 version = "0.1.0"
-source = "git+https://github.com/voelklmichael/Raytracer_Plugin#7fb94660eece72ffe5cfe49894eaf01e83a73dba"
+source = "git+https://github.com/voelklmichael/Raytracer_Plugin#a6409cce9f868a4ed4f7170b3375fa0ec01713d4"

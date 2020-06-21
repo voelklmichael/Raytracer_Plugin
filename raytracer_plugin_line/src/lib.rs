@@ -1,4 +1,4 @@
-use raytracer_shared::*;
+use raytracer_shared::{Intersectable, Intersection, Ray, Vec2};
 
 pub struct InfiniteLine {
     point_on_line: Vec2,

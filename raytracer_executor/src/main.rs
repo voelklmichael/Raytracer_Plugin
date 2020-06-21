@@ -1,5 +1,5 @@
 use raytracer_shared::*;
-use raytracer_plugin_line::*;
+use raytracer_plugin_line::InfiniteLine;
 
 pub struct Circle {
     center: Vec2,
