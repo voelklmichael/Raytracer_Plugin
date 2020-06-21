@@ -1,5 +1,5 @@
 [package]
-name = "raytracer_plugin"
+name = "raytracer_plugin_line"
 version = "0.1.0"
 authors = ["Michael Völkl<michaelvoelkl@zoho.com>"]
 edition = "2018"
