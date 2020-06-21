@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 raytracer_shared = { git = "https://github.com/voelklmichael/Raytracer_Plugin/", branch='master' }
+pkg-version = "1.0.0"
