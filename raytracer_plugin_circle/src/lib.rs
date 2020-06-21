@@ -1,6 +1,6 @@
 use raytracer_shared::{Intersectable, Intersection, Ray, Vec2};
 
-pub const fn version_info() -> raytracer_shared::VersionInfo {
+pub fn version_info() -> raytracer_shared::VersionInfo {
     const CRATE_NAME: &'static str = env!("CARGO_PKG_NAME");
     use pkg_version::{pkg_version_major, pkg_version_minor, pkg_version_patch};
     const MAJOR: u32 = pkg_version_major!();

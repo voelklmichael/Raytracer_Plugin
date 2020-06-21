@@ -1,12 +1,12 @@
 [package]
 name = "raytracer_executor"
-version = "0.1.3"
+version = "0.1.4"
 authors = ["Michael Völkl<michaelvoelkl@zoho.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-raytracer_shared = { git = "https://github.com/voelklmichael/Raytracer_Plugin/", version = '0.1.3'}
-raytracer_plugin_line = { git = "https://github.com/voelklmichael/Raytracer_Plugin", version = '0.1.3'}
-raytracer_plugin_circle = { git = "https://github.com/voelklmichael/Raytracer_Plugin", version = '0.1.3'}
+raytracer_shared = { git = "https://github.com/voelklmichael/Raytracer_Plugin/", version = '0.1.4'}
+raytracer_plugin_line = { git = "https://github.com/voelklmichael/Raytracer_Plugin", version = '0.1.4'}
+raytracer_plugin_circle = { git = "https://github.com/voelklmichael/Raytracer_Plugin", version = '0.1.4'}
