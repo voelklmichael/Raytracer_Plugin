@@ -24,16 +24,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "raytracer_plugin_circle"
-version = "0.1.4"
+version = "0.1.5"
 dependencies = [
  "pkg-version 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "raytracer_shared 0.1.4 (git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=0d8f3c1)",
+ "raytracer_shared 0.1.4 (git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=873e84a)",
 ]
 
 [[package]]
 name = "raytracer_shared"
-version = "0.1.4"
-source = "git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=0d8f3c1#0d8f3c110794188f7c432c89756889d456497425"
+version = "0.1.5"
+source = "git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=873e84a#873e84a4726da61bb2fc659dcfffefe41be931f2"
 dependencies = [
  "pkg-version 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -42,4 +42,4 @@ dependencies = [
 "checksum pkg-version 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "0e848f61ee4b2010345e65757e427a077213af1cee5d3e6a02e4a151dabca377"
 "checksum pkg-version-impl 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "1564bf5d476bf4a5eac420b88c500454c000dca79cef0a2e4304a1fe34361a3b"
 "checksum proc-macro-hack 0.5.16 (registry+https://github.com/rust-lang/crates.io-index)" = "7e0456befd48169b9f13ef0f0ad46d492cf9d2dbb918bcf38e01eed4ce3ec5e4"
-"checksum raytracer_shared 0.1.4 (git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=0d8f3c1)" = "<none>"
+"checksum raytracer_shared 0.1.4 (git+https://github.com/voelklmichael/Raytracer_Plugin/?rev=873e84a)" = "<none>"
