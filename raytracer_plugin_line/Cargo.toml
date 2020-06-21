@@ -7,3 +7,4 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+raytracer_shared = { git = "https://github.com/voelklmichael/Raytracer_Plugin/tree/master/raytracer_shared" }
